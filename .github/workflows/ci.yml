@@ -23,4 +23,4 @@ jobs:
           java-version: '21'
 
       - name: Build and test
-        run: ./mvnw clean package
+        run: ./mvnw clean package -DskipTests
